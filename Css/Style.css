@@ -140,4 +140,39 @@ img {
   }
 }
 @media screen and (max-width: 540px) {
+  /*  */
+  .container .image {
+    display: none;
+  }
+}
+
+.about .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+.about .content {
+  max-width: 600px;
+  display: grid;
+  gap: 1rem;
+}
+.content h2 {
+  font-size: 2rem;
+  text-transform: capitalize;
+  margin-bottom: 2 rem;
+}
+.about .content h2 span {
+  color: #7700ff;
+}
+#ab-para {
+  font-family: "Times New Roman", Times, serif;
+}
+.about .content .btn {
+  margin-top: 1rem;
+}
+@media screen and (max-width: 768px) {
+  .about .image {
+    display: none;
+  }
 }
